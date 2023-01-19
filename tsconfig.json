@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["dom", "esnext"],
+    "jsx": "react",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    // "resolveJsonModule": true,
+    // "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"],
+      "~/static/*": ["./static/*"]
+    }
+  },
+  "exclude": ["node_modules"],
+  "include": ["./src/**/*", "./gatsby-node.ts", "./gatsby-config.ts", "./plugins/**/*"]
+}
